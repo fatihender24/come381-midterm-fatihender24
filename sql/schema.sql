@@ -35,11 +35,5 @@ CREATE TABLE event_registration (
     event_id INTEGER NOT NULL REFERENCES event(event_id) ON DELETE CASCADE,
     registered_at DATE NOT NULL,
     attendance_status VARCHAR(40) NOT NULL DEFAULT 'registered',
-    CONSTRAINT uq_student_event_registration UNIQUE (student_id, event_id)  
-
+    CONSTRAINT uq_student_event_registration UNIQUE (student_id, event_id)
 );
-
-İsim soy isim: Fatih Ender Kılıçkalkan                                                              
-öğrenci no : 202502009080
-bölüm: yönetim bilişim sistemleri
-github kullanıcı adı: fatihender24
