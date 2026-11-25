@@ -61,4 +61,8 @@ erDiagram
         int student_id FK
         int event_id FK
     }
+isim soyisim : Fatih Ender Kılıçkalkan
+öğrenci no : 202502009080
+bölüm: yönetim bilişim sistemleri 
+github hesabı: fatihender24
 
